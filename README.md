@@ -10,3 +10,6 @@ Remember to
 sandbox = false
 experimental-features = nix-command flakes
 ```
+Then go into the shell with
+
+`nix develop`
