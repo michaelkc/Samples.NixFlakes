@@ -13,3 +13,10 @@ experimental-features = nix-command flakes
 Then go into the shell with
 
 `nix develop`
+
+and check versions with
+
+`node --version`
+`dotnet --version`
+
+No matter what versions are installed locally, they should read 20 and 8 respectively.
