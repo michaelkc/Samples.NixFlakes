@@ -23,7 +23,7 @@
         defaultPackage = self.packages.${system}.hello;
 
         # nix develop .#hello or nix shell .#hello
-        devShells.hello = pkgs.mkShell {buildInputs = [pkgs.hello pkgs.cowsay pkgs.dotnet-sdk_8 pkgs.nodejs_20];};
+        devShells.hello = pkgs.mkShell {buildInputs = [pkgs.hello pkgs.cowsay pkgs.dotnet-sdk_8 pkgs.nodejs_22];};
 
         # nix develop or nix shell
         devShell = self.devShells.${system}.hello;
